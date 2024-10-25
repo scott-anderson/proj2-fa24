@@ -4,10 +4,7 @@ from werkzeug.utils import secure_filename
 app = Flask(__name__)
 
 # one or the other of these. Defaults to MySQL (PyMySQL)
-# change comment characters to switch to SQLite
-
 import cs304dbi as dbi
-# import cs304dbi_sqlite3 as dbi
 
 import secrets
 
